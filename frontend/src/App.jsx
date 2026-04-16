@@ -5,6 +5,7 @@ import { useAuth } from './context/AuthContext';
 import Dashboard from './pages/Dashboard';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import OtpVerification from './pages/OtpVerification';
 import Invoices from './pages/Invoices';
 import CreateInvoice from './pages/CreateInvoice';
 import Customers from './pages/Customers';
@@ -31,8 +32,10 @@ function App() {
       <Route path="/" element={<LandingPage />} />
 
       {/* Public Routes */}
+      {/* Public Routes */}
       <Route path="/sign-in" element={<Login />} />
       <Route path="/register" element={<Register />} />
+      <Route path="/verify-otp" element={<OtpVerification />} />
 
       {/* Protected Routes */}
       <Route
