@@ -35,9 +35,8 @@ const LandingPage = () => {
                 <div className="container mx-auto px-6 text-center">
                     <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-indigo-50 text-indigo-700 rounded-full font-bold text-xs uppercase tracking-wide mb-8 animate-fade-in-up">
                         <Zap size={14} fill="currentColor" />
-                        <span>AI-Powered Invoicing is Here</span>
+                        <span>Professional Invoicing Made Simple</span>
                     </div>
-
                     <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight leading-tight mb-6 max-w-5xl mx-auto">
                         Professional Invoices <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">
@@ -73,7 +72,7 @@ const LandingPage = () => {
 
                     <div className="grid md:grid-cols-3 gap-8">
                         {[
-                            { title: "AI Invoice Parsing", desc: "Upload receipts and let our AI automatically extract details to create invoices instantly.", icon: Zap },
+                            { title: "Smart Invoice Management", desc: "Create, manage, and track professional invoices easily with our intuitive dashboard.", icon: Zap },
                             { title: "Smart Email Reminders", desc: "Set automatic follow-ups for unpaid invoices. Get paid 2x faster without awkward conversations.", icon: CheckCircle },
                             { title: "Professional PDF Export", desc: "Download high-quality, branded PDFs that look great on any device or printer.", icon: Shield },
                         ].map((feature, idx) => (
